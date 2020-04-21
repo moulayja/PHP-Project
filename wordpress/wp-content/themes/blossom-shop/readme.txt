@@ -4,13 +4,13 @@ Contributors: blossomthemes
 Requires at least: 4.7
 Requires PHP: 5.6
 Tested up to: 5.4
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, footer-widgets, custom-background, custom-header, custom-menu, custom-logo, featured-images, threaded-comments, full-width-template, rtl-language-support, translation-ready, theme-options, e-commerce
 
 == Description ==
-Blossom Shop is a clean, fast and feature-rich free WordPress theme to create online stores. It is powered by WooCommerce plugin. You can use it to build all kinds of online shop such as fashion, cosmetics, jewellery, furniture, accessories, lifestyle, decoration, gadgets, books, home appliances, clothes, automobiles, movies, and so so. Blossom Shop is designed to highlight products and provide user experience of the highest quality so that your products are sold easily like candy. You can easily change the look and feel of your website using the color and typography features. You can change the color to purple, pink, cyan or any color you like. The theme is mobile friendly and fully responsive to ensure your website looks great in different sized devices. Beautifully placed Instagram section can be used to show your Instagram account and increase your followers. Blossom Shop is Schema.org ready, SEO friendly and speed optimized so that your website ranks over your competitors. It is multilingual ready and supports RTL. Other features include social sharing, Instagram profile, newsletter subscription, similar products, sales ribbon and Mega Menu compatible. In addition, Blossom Shop is backed by world class, one-on-one support, and a super active team of developers and designers ready to help! Check theme details at https://blossomthemes.com/downloads/blossom-shop-free-wordpress-theme/, demo at https://demo.blossomthemes.com/blossom-shop/, read the documentation at https://docs.blossomthemes.com/docs/blossom-shop/, and get support at https://blossomthemes.com/support-ticket/.
+Blossom Shop is a clean, fast and feature-rich free WordPress theme to create online stores. It is powered by WooCommerce plugin. You can use it to build all kinds of online shop such as fashion, cosmetics, jewelry, furniture, accessories, lifestyle, decoration, gadgets, books, home appliances, clothes, automobiles, movies, and so so. Blossom Shop is designed to highlight products and provide user experience of the highest quality so that your products are sold easily like candy. You can easily change the look and feel of your website using the color and typography features. You can change the color to purple, pink, cyan or any color you like. The theme is mobile friendly and fully responsive to ensure your website looks great in different sized devices. Beautifully placed Instagram section can be used to show your Instagram account and increase your followers. Blossom Shop is Schema.org ready, SEO friendly and speed optimized so that your website ranks over your competitors. It is multilingual ready and supports RTL. Other features include social sharing, Instagram profile, newsletter subscription, similar products, sales ribbon and Mega Menu compatible. In addition, Blossom Shop is backed by world class, one-on-one support, and a super active team of developers and designers ready to help! Check theme details at https://blossomthemes.com/downloads/blossom-shop-free-wordpress-theme/, demo at https://blossomthemes.com/theme-demo/?theme=blossom-shop, read the documentation at https://docs.blossomthemes.com/docs/blossom-shop/, and get support at https://blossomthemes.com/support-ticket/.
 
 == Installation ==
 
@@ -96,6 +96,10 @@ All other images including icon image used in screenshot and images used in cust
 
 == Changelog ==
 	
+    1.0.6 - April 21, 2020
+        * Fixed: some design issues
+        * Improved: changed screenshot and description
+    
     1.0.5 - April 17, 2020
         * Fixed: search popup accessibility issue
         * Fixed: responsive menu accessibility issue

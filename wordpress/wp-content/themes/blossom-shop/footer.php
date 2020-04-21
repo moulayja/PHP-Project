@@ -14,7 +14,7 @@
      * 
      * @hooked blossom_shop_content_end - 20
     */
-//     do_action( 'blossom_shop_before_footer' );
+    do_action( 'blossom_shop_before_footer' );
     
     /**
      * Before footer
@@ -40,7 +40,7 @@
     */
     do_action( 'blossom_shop_after_footer' );
 
-     ?>
+    wp_footer(); ?>
 
 </body>
 </html>

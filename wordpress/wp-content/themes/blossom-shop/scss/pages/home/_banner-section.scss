@@ -1030,6 +1030,7 @@
 			.banner-title {
 				font-size: 2em;
 				margin-bottom: 20px;
+				color: $font_color;
 
 				a {
 					color: $font_color;
@@ -1040,6 +1041,10 @@
 				}//a
 
 			}//.banner-title
+
+			.banner-desc {
+				color: $font_color;
+			}//.banner-desc
 
 			.btn-readmore {
 				color: $font_color;
