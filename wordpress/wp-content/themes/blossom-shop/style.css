@@ -5877,7 +5877,7 @@ body.search-active {
   }
 }
 .site-footer {
-  background: rgba(0, 0, 0, 0.015);
+ background: rgba(0, 0, 0, 0.015);
 }
 .site-footer .footer-t, .site-footer .footer-top {
   padding-top: 60px;
@@ -5910,10 +5910,15 @@ body.search-active {
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
+
+
+
 .site-footer .footer-b {
   border-top: 1px solid rgba(134, 142, 150, 0.1);
   padding: 25px 0;
 }
+
+
 .site-footer .footer-b .container {
   display: flex;
   flex: 1;
@@ -5926,6 +5931,7 @@ body.search-active {
 }
 .site-footer .footer-b .copyright, .site-footer .footer-b .author-link, .site-footer .footer-b .wp-link {
   color: #202020;
+
 }
 .site-footer .footer-b .copyright a, .site-footer .footer-b .author-link a, .site-footer .footer-b .wp-link a {
   color: #202020;

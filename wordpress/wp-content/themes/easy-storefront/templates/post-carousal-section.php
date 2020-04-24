@@ -11,7 +11,7 @@ function easy_storefront_slider_nav(){
 $easy_storefront_settings = new new_york_business_settings();
 $easy_storefront_option = wp_parse_args(  get_option( 'new_york_business_option', array() ) , $easy_storefront_settings->default_data());  
 
-$slider_banner = $easy_storefront_option['slider_banner_image'];
+$slider_banner = get_theme_mod('slider_banner_image', '');
 
 $slider_css = 'col-sm-9';
 if ($slider_banner) {
@@ -79,8 +79,9 @@ if ($slider_banner) {
 		$alt = '';
 		$price = '';
 		$thumb_id = get_post_thumbnail_id(get_the_ID());
-		if( has_post_thumbnail() ){
-			$url = esc_url(get_the_post_thumbnail_url($thumb_id, 'full'));
+		
+			$url = wp_get_attachment_url( $product->get_image_id() );
+			
 			if(!$url) {
 				$url = EASY_STOREFRONT_TEMPLATE_DIR_URI.'/images/no-image.png';
 			}
@@ -89,9 +90,6 @@ if ($slider_banner) {
 				$price = $product->get_price_html();
 			}
 	
-		}else{
-			$url = EASY_STOREFRONT_TEMPLATE_DIR_URI.'/images/no-image.png';
-		}
 			$my_title = esc_html(get_the_title());
 			$post_link = get_permalink( get_the_ID() );			
 		?>
@@ -124,8 +122,8 @@ if ($slider_banner) {
   </div>
   
   
-  <?php if(get_theme_mod('slider_banner_image', '') != ''): ?>
-  <div class="col-md-2 slider-banner">
+  <?php if($slider_banner != ''): ?>
+  <div class="col-md-2 col-sm-2 slider-banner">
   	 <img src="<?php echo esc_url(get_theme_mod('slider_banner_image', '')); ?>" />
   </div> 
   <?php endif; ?>

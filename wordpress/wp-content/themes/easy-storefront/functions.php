@@ -104,19 +104,19 @@ function easy_storefront_general_admin_notice(){
              	<a href=%1$s target="_blank"  style="text-decoration: none;" class="button button-primary"> %2$s </a>
 			 	<a href=%3$s target="_blank"  style="text-decoration: none; margin-left:10px;" class="button">%4$s</a>
 			 	<a href="?easy_storefront_admin_notice" target="_self"  style="text-decoration: none; margin-left:10px;" class="button button-secondary">%5$s</a>
-			 	</p><strong>%6$s</strong></p></div>',
+			 	&nbsp;<strong>%6$s</strong></p></div>',
 				esc_url(EASY_STOREFRONT_THEME_REVIEW_URL),
-				esc_html__('Rate','easy-storefront'),
+				esc_html__('Rate Us','easy-storefront'),
 				esc_url(EASY_STOREFRONT_THEME_DOC),	
-				esc_html__('Theme Tutorial','easy-storefront'),
+				esc_html__('Tutorial - Demo Data','easy-storefront'),
 				esc_html__('Dismiss', 'easy-storefront'),
-				esc_html__(' Drag and drop Theme:Product Categories widget using page builder. Customize -> Theme Option customize Slider, Navigation, Banner sections, Header Widgets.', 'easy-storefront'));				
+				esc_html__('1) Customize -> Theme Option customize Slider, Navigation, Banner sections, Header Widgets. 2) Use a page builder and Drag and drop Theme:Product Categories widget. Use free demo content and start editing.', 'easy-storefront'));				
 		 echo wp_kses_post($msg);
 }
 
 	
 if ( isset( $_GET['easy_storefront_admin_notice'] ) ){
-	$easy_storefront_option['admin_notice'] = false;
+	$easy_storefront_option['admin_notice'] = 0;
 	update_option('new_york_business_option', $easy_storefront_option);
 }
 

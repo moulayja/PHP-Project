@@ -3,7 +3,7 @@ Theme Name: Easy Storefront
 Author: ceylonthemes
 Author URI: https://www.ceylonthemes.com/
 Theme URI: https://www.ceylonthemes.com/product/wordpress-storefront-theme
-Version: 1.0.3
+Version: 1.0.4
 Template: new-york-business
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -198,8 +198,7 @@ ul.header-social-icon li a {
 }
 
 .mini-header {
-	border-top: 1px solid #e1e6e4;
-	border-bottom: 1px solid #e1e6e4;
+	border-bottom: 1px solid #f7f7f7;
 }
 
 .sub-header {
@@ -599,6 +598,10 @@ a.category-menu::before {
 	.header-banner img {
 		width:100%;
 		
+	}
+	
+	.main-navigation > div > ul {
+		text-transform: capitalize;
 	}
 
 	#top-menu > li > a:hover,
@@ -1016,8 +1019,14 @@ span.cart-contents-count:before {
 	border:1px solid #297fec;
 }
 
+.carousel-indicators li {
+    background-color: #dfdfdfe6;
+    border: 1px solid #dfdfdfe6;
+
+}
 @media screen and (max-width:600px) {
  #wpadminbar {
 	position:fixed;
  }
  
+

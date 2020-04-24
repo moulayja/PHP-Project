@@ -10,7 +10,7 @@
 		) );
 		
 		$wp_customize->add_setting( 'new_york_business_option[slider_nav_show]' , array(
-		'default'    => 0,
+		'default'    => 1,
 		'sanitize_callback' => 'new_york_business_sanitize_checkbox',
 		'type'=>'option'
 		));

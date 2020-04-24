@@ -3,7 +3,7 @@ Contributors: ceylonthemes
 Requires at least: WordPress 4.8.0
 Requires PHP: 5.6
 Tested up to: WordPress 5.3
-Version: 1.0.2
+Version: 1.0.3
 Template: new-york-business
 Stable tag: trunk
 License: GPLv2 or later
@@ -107,6 +107,12 @@ Source: https://pxhere.com/en/photo/1069912 (bracelet)
 
 
 == Changelog ==
+= 1.0.4 =
+
+* Fixed product slider errors
+* (Fixed banner display layour errors) Fixed slider and navigation section
+* Fixed erros in woocommerce-functions
+* Updated notice
 
 = 1.0.3 =
 

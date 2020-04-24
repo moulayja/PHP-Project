@@ -28,7 +28,7 @@ if( !class_exists('new_york_business_settings') ){
 			'header_myaccount_link' =>  site_url().'/my-account',
 			
 			'slider_animation_type' => 'slide', //value not displayed to user
-			'slider_in_home_page' => 0,
+			'slider_in_home_page' => 1,
 			'slider_cat' => '',
 			'slider_image_height' => 450,
 			'slider_button_text' => __("More details",'easy-storefront'),
@@ -36,7 +36,7 @@ if( !class_exists('new_york_business_settings') ){
 			'slider_speed' => 4000,			
 			'slider_max_items' => 6,
 			
-			'slider_nav_show' => 0,
+			'slider_nav_show' => 1,
 			'slider_nav_count' => 15,
 			'slider_nav_animation_type' => 'fade',
 			'slider_nav_speed' => 3000,			

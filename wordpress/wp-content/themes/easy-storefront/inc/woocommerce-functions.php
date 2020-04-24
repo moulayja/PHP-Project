@@ -25,7 +25,7 @@ class easy_storefront_product_navigation_widget extends WC_Widget {
 				echo $args['before_widget'];
 				
 				//generate widget front end
-				easy_storefront_product_navigation($title, $max_items);
+				easy_storefront_product_navigation("", $max_items);
 
 				echo $args['after_widget'];
 										
