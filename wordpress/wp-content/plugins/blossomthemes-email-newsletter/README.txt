@@ -5,7 +5,7 @@ Tags: subscribe, newsletter, email
 Requires at least: 4.3
 Tested up to: 5.4
 Requires PHP: 5.6
-Stable tag: 2.1.0
+Stable tag: 2.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,6 +46,15 @@ Once installed, the plugin page will appear on the Admin dashboard.
 
 
 == Changelog ==
+
+= 2.1.1 = 
+
+Released on: 23rd April, 2020
+
+Fixes:
+
+* Newsletter design issue fixes.
+* Minor bug fixes.
 
 = 2.1.0 = 
 

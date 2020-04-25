@@ -580,12 +580,13 @@ function blossom_shop_footer_bottom(){ ?>
 			<div class="site-info">            
             <?php
                 blossom_shop_get_footer_copyright();
-                echo esc_html__( ' Blossom Shop | Developed By ', 'blossom-shop' ); 
-                echo '<a href="' . esc_url( 'https://blossomthemes.com/' ) .'" rel="nofollow" target="_blank">' . esc_html__( 'Blossom Themes', 'blossom-shop' ) . '</a>.';                
-                printf( esc_html__( ' Powered by %s. ', 'blossom-shop' ), '<a href="'. esc_url( __( 'https://wordpress.org/', 'blossom-shop' ) ) .'" target="_blank">WordPress</a>' );
-                if ( function_exists( 'the_privacy_policy_link' ) ) {
-                    the_privacy_policy_link();
+                //echo esc_html__( ' Blossom Shop | Developed By ', 'blossom-shop' ); 
+                //echo '<a href="' . esc_url( 'https://blossomthemes.com/' ) .'" rel="nofollow" target="_blank">' . esc_html__( 'Blossom Themes', 'blossom-shop' ) . '</a>.';                
+                //printf( esc_html__( ' Powered by %s. ', 'blossom-shop' ), '<a href="'. esc_url( __( 'https://wordpress.org/', 'blossom-shop' ) ) .'" target="_blank">WordPress</a>' );
+                //if ( function_exists( 'the_privacy_policy_link' ) ) {
+                /*    the_privacy_policy_link();
                 }
+				*/
             ?>               
             </div>
             <?php 

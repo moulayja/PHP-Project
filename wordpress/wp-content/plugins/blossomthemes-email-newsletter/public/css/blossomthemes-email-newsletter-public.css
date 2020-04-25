@@ -57,7 +57,7 @@ img {
 	z-index: 1
 }
 .blossomthemes-email-newsletter-wrapper form input[type="text"] {
-	margin: 0 0 10px
+	margin: 10px 0 0 0;
 }
 .blossomthemes-email-newsletter-wrapper form label .check-mark {
 	margin-right: 10px;
@@ -167,6 +167,11 @@ img {
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
 	transform: translateY(-50%)
+}
+
+.blossomthemes-email-newsletter-wrapper form > label {
+    margin-top: 10px;
+    display: block;
 }
 
 @media screen and (max-width: 767px) {
